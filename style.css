@@ -1,0 +1,143 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    /*fixed background color not filling the whole div*/
+    margin: 0px;
+    padding: 0px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li{
+    margin: 20px;
+}
+nav li a {
+    display: block;
+    color: white;
+    padding: 0px 12px;  
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+
+}
+a:hover {
+    color: lightblue;
+    border-bottom: 2px solid lightblue;
+}
+h1 {
+    font-weight:bold;
+    font-size: 150px;
+    color: green;
+    
+}
+h2 {
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h3 {
+    font-size: 50px;
+    text-align: center;
+    color: green;
+}
+h4 {
+    font-size: 25px;
+}
+p {
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+section {
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.first {
+    height: 860px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.second {
+    height: 500px;
+    align-items: center;
+    display: flex;
+    background-color: green;
+    color: white;
+    justify-content: center;
+}
+.third {
+    height: 500px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    color: green;
+}
+.first2 {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.first3 {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    text-align: center;
+    flex-direction: column;
+}
+#team {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 20px;
+    overflow: hidden;
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: visible; /*shadow on the div container was cut off*/
+}
+.teammember {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px gray;
+}
+.project {
+    border-style: solid;
+    padding: 60px 20px;
+    border-color: green;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: green;
+    margin-bottom: 30px;
+}
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+} 
